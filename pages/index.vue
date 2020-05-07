@@ -25,12 +25,16 @@
           </li>
         </ul>
       </div>
-      <points-chart
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <points-chart
         :input-data="data"
         :labels="labels"
         :chart-name="chartLabel"
         class="chart section"
       ></points-chart>
+        </div>
+      </div>
       <div class="tile is-parent">
         <div class="tile is-child is-vertical">
           <b-button @click="fetchStockData" style="margin-bottom: 2em;">Fetch Data</b-button>
