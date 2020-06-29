@@ -1,6 +1,5 @@
 <script>
 import { Line } from 'vue-chartjs'
-
 export default {
   extends: Line,
   props: {
@@ -49,7 +48,15 @@ export default {
             }
           ]
         },
-        { responsive: true, maintainAspectRatio: false }
+        { 
+          responsive: true, 
+          maintainAspectRatio: false,
+          pan:{
+            enabled: true,
+            mode: 'xy',
+            speed: 10,
+          }
+        }
       )
     }
   }
