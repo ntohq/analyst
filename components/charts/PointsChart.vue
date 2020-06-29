@@ -55,6 +55,11 @@ export default {
             enabled: true,
             mode: 'xy',
             speed: 10,
+          },
+          zoom: {
+            enabled: true,
+            mode: 'xy',
+            drag: flase,
           }
         }
       )
