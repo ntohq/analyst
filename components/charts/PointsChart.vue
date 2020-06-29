@@ -51,16 +51,6 @@ export default {
         { 
           responsive: true, 
           maintainAspectRatio: false,
-          pan:{
-            enabled: true,
-            mode: 'xy',
-            speed: 10,
-          },
-          zoom: {
-            enabled: true,
-            mode: 'xy',
-            drag: flase,
-          }
         }
       )
     }
